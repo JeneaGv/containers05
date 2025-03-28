@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+label {
+    font-weight: bold;
+}
+input,
+textarea {
+    grid-column: 2/4;
+    margin-bottom: 15px;
+}
+button {
+    grid-column: 3/4;
+}
+h2 {
+    text-align: center;
+    margin: 5px;
+}

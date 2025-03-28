@@ -1,0 +1,22 @@
+.pareri {
+    width: 50%;
+    margin: auto;
+}
+.redB,
+.greenyellowB {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.redB {
+    background-color: rgb(255, 0, 0);
+}
+.greenyellowB {
+    background-color: greenyellow;
+}
+p {
+    color: red;
+    width: fit-content;
+    margin: 10px auto;
+}
