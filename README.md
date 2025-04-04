@@ -109,3 +109,7 @@ funcționează în rețeaua internal.
 <br>Fără această suprascriere, Nginx nu ar ști cum să proceseze cererile PHP sau unde să găsească serviciul PHP-FPM.
   </li>
 </Ol>
+
+# Concluzie 
+
+Această lucrare a evidențiat importanța și ușurința interacțiunii între containere în cadrul unei rețele Docker dedicate. Prin separarea aplicației PHP în două servicii distincte — Nginx pentru partea de server web și PHP-FPM pentru interpretarea codului PHP — am învățat cum se pot conecta și colabora containerele printr-o rețea comună, folosind hostname-uri bazate pe numele containerelor. De asemenea, suprascrierea configurației implicite a serverului Nginx a fost esențială pentru direcționarea corectă a cererilor către serviciul PHP-FPM, iar montarea directoarelor locale în containere a permis rularea eficientă a aplicației. În ansamblu, lucrarea a demonstrat cum utilizarea containerelor Docker contribuie la modularitatea, portabilitatea și scalabilitatea unei aplicații moderne.
